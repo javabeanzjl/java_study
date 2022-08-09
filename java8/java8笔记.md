@@ -128,3 +128,4 @@ java8新特性。使代码更简洁
   - Supplier<T> 供给型接口                   无                        T                  T get();
   - Function<T,R> 函数型接口                T                         R                  R apply(T t);
   - Predicate<T> 断定型接口                  T                    boolean          boolean test(T t);
+啊沙发沙发案说法
