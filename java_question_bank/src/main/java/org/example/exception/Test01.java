@@ -1,5 +1,7 @@
 package org.example.exception;
 
+import org.junit.jupiter.api.Test;
+
 public class Test01 {
     public static void main(String[] args) {
         // 执行顺序
