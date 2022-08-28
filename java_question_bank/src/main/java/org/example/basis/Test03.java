@@ -1,5 +1,7 @@
 package org.example.basis;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Scanner;
 
 public class Test03 {
@@ -13,4 +15,20 @@ public class Test03 {
             System.out.println();
         }
     }
+    
+    @Test
+    public void test01() {
+        float f = 100.00f;
+        double d = 100;
+        Double d1 = Double.valueOf(1);
+        int a = 1;
+        float b = 2;
+        System.out.println(a / b);
+    }
+    
+    @Test
+    public void test02() {
+        
+    }
 }
+
