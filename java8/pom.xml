@@ -43,6 +43,18 @@
       <version>0.9</version>
       <scope>compile</scope>
     </dependency>
+      <dependency>
+          <groupId>cloud.piranha.webapp</groupId>
+          <artifactId>piranha-webapp-webservlet</artifactId>
+          <version>20.5.0</version>
+          <scope>compile</scope>
+      </dependency>
+    <dependency>
+      <groupId>cloud.piranha.servlet</groupId>
+      <artifactId>piranha-servlet-webservlet</artifactId>
+      <version>20.4.0</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 
   <build>

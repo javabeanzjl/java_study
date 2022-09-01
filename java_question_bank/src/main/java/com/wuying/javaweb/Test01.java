@@ -20,6 +20,7 @@ public class Test01 implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("service方法执行");
+        System.out.println(servletRequest.getLocalAddr());
     }
 
     @Override

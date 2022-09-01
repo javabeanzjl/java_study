@@ -15,7 +15,7 @@ public class Test01 {
         }
     }
     @Test
-    public void test01() {
+    public void test01() {  
         Scanner s = new Scanner(System.in);
         String  str = s.next();
         System.out.println(str);
