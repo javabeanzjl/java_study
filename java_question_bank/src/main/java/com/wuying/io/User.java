@@ -1,4 +1,4 @@
-package org.example.io;
+package com.wuying.io;
 
 import java.io.Serializable;
 
@@ -8,7 +8,7 @@ public class User implements Serializable {
     private String password;
     // 序列化版本号
     private static final long serialVersionUID = 5057391635801213802L;
-    
+
     // transient表示游离的，不参与序列化
     private transient int age;
 
@@ -70,3 +70,4 @@ public class User implements Serializable {
         this.password = password;
     }
 }
+

@@ -24,4 +24,18 @@ public class Test01 {
             return i;// return并返回此时i = 4;
         }
     }
+    @Test
+    public void test02() {
+        try {
+            System.out.println(1/0);
+        } catch (Exception e) {
+            System.out.println("发生异常");
+            return;
+        } finally {
+            System.out.println("finally仍然执行");
+        }
+        // 由于发生异常且catch块中有return所以并不执行
+        System.out.println("11");
+            
+    }
 }
