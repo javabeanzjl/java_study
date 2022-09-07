@@ -28,7 +28,13 @@ class Employee extends Person {
     String empID = "0000";
     public Employee(String id) {
         super();
+        // this(); super和this不能同时出现构造方法中。
         empID = id;
     }
     public Employee() {}
+    
+    public static void Test01() {
+        // super(); super不可以出现在静态方法中。
+        // this();  this不可以出现在静态方法中。
+    }
 }

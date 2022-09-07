@@ -21,4 +21,21 @@ public class Test06 {
         // 0+1+2+3+...+n = (1 + n) / 2;
         System.out.println(z);
     }
+    @Test
+    public void test02() {
+        System.out.println(switchit(4));
+    }
+
+    public static int switchit(int x) {
+        int j=1;
+        switch (x) {
+            case 1:j++;
+            case 2:j++;
+            case 3:j++;
+            case 4:j++;
+            case 5:j++;
+            default:j++;
+        }
+        return j+x;
+    }
 }
