@@ -1,4 +1,4 @@
-package main.java.com.mrzhang.enity;
+package com.mrzhang.enity;
 
 import javax.swing.*;
 
