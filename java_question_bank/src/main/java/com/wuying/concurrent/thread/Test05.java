@@ -3,6 +3,7 @@ package com.wuying.concurrent.thread;
 /**
  * Daemon线程--守护线程
  * User线程----用户线程
+ * 用户线程全部结束后，守护线程即使没有执行完毕也会停止。
  */
 public class Test05 {
 }
