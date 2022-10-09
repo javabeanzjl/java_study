@@ -35,7 +35,7 @@ public class Test01 {
         oos.writeObject(user);
         oos.flush();
     }
-    // 反序列化
+    // 反序列化--将文件中的信息在控制台上显示。
     @Test
     public void test03() throws IOException, ClassNotFoundException {
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("张三的信息"));

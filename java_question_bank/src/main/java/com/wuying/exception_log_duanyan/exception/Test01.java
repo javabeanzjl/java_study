@@ -2,6 +2,9 @@ package com.wuying.exception_log_duanyan.exception;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * try..catch..finaly详解
+ */
 public class Test01 {
 
     public static void main(String[] args) {

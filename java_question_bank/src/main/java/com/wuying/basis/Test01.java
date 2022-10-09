@@ -52,4 +52,18 @@ public class Test01 {
         a = null;// 会将A a的内存地址清空，此时0x001和0x002这两个地址的内存空间并没有任何引用指向他们。
         // 垃圾回收可以开始进行。
     }
+
+    /**
+     * 关于强转
+     */
+    @Test
+    public void test02() {
+        byte b1=1,b2=2,b3,b6,b8;
+        final byte b4=4,b5=6,b7;
+        b3= (byte) (b1+b2);  /*语句1*/
+        b6=b4+b5;    /*语句2*/
+        b8= (byte) (b1+b4);  /*语句3*/
+        b7= (byte) (b2+b5);  /*语句4*/
+        System.out.println(b3+b6);
+    }
 }
